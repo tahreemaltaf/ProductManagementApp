@@ -1,0 +1,90 @@
+[
+  {
+    "id": "8f7c9e2a-4b15-4d6f-9a31-2c8e5b7f1046",
+    "name": "Laptop",
+    "price": 120000,
+    "category": "Electronics",
+    "description": "Business laptop",
+    "isActive": true
+  },
+  {
+    "id": "3a6d1f84-92c7-4e5b-b018-7d2a9c6f5431",
+    "name": "Keyboard",
+    "price": 5000,
+    "category": "Accessories",
+    "description": "Mechanical keyboard",
+    "isActive": true
+  },
+  {
+    "id": "c5e8b271-6f43-49a2-8d17-1b9c4e735620",
+    "name": "Mouse",
+    "price": 2500,
+    "category": "Accessories",
+    "description": "Wireless mouse",
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4789-abcd-ef0123456789",
+    "name": "27-inch Monitor",
+    "price": 45000,
+    "category": "Electronics",
+    "description": "Full HD IPS display for office work",
+    "isActive": true
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4890-bcde-f1234567890a",
+    "name": "USB-C Hub",
+    "price": 4500,
+    "category": "Accessories",
+    "description": "7-in-1 hub with HDMI and SD card reader",
+    "isActive": true
+  },
+  {
+    "id": "c3d4e5f6-a7b8-4901-cdef-1234567890ab",
+    "name": "Office Chair",
+    "price": 18500,
+    "category": "Furniture",
+    "description": "Ergonomic chair with lumbar support",
+    "isActive": true
+  },
+  {
+    "id": "d4e5f6a7-b8c9-4012-def0-234567890abc",
+    "name": "A5 Notebook",
+    "price": 350,
+    "category": "Stationery",
+    "description": "Hardcover ruled notebook",
+    "isActive": true
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4123-ef01-34567890abcd",
+    "name": "Water Bottle",
+    "price": 1200,
+    "category": "Lifestyle",
+    "description": "Stainless steel 1 litre bottle",
+    "isActive": false
+  },
+  {
+    "id": "f6a7b8c9-d0e1-4234-f012-4567890abcde",
+    "name": "Desk Lamp",
+    "price": 2800,
+    "category": "Furniture",
+    "description": "LED lamp with adjustable brightness",
+    "isActive": true
+  },
+  {
+    "id": "07b8c9d0-e1f2-4345-0123-567890abcdef",
+    "name": "Webcam",
+    "price": 7500,
+    "category": "Electronics",
+    "description": "1080p webcam for video calls",
+    "isActive": true
+  },
+  {
+    "id": "93922779-0b64-4326-8c6a-be6a4ae28f57",
+    "name": "Keychain",
+    "price": 30000,
+    "category": "Electronics",
+    "description": "xyz",
+    "isActive": true
+  }
+]

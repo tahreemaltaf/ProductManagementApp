@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="Data\products.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProductManagementApp.Business\**" />
+    <Compile Remove="ProductManagementApp.DataAccess\**" />
+    <Compile Remove="ProductManagementApp.Models\**" />
+    <EmbeddedResource Remove="ProductManagementApp.Business\**" />
+    <EmbeddedResource Remove="ProductManagementApp.DataAccess\**" />
+    <EmbeddedResource Remove="ProductManagementApp.Models\**" />
+    <None Remove="ProductManagementApp.Business\**" />
+    <None Remove="ProductManagementApp.DataAccess\**" />
+    <None Remove="ProductManagementApp.Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ProductManagementApp.Business\ProductManagementApp.Business.csproj" />
+    <ProjectReference Include="ProductManagementApp.DataAccess\ProductManagementApp.DataAccess.csproj" />
+    <ProjectReference Include="ProductManagementApp.Models\ProductManagementApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>
